@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d07a01e8-eda5-4564-867b-5ae8298772c8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Aufgabenblatt2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Aufgabenblatt2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Aufgabenblatt2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angabe/Aufgabenblatt3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/angabe/Aufgabenblatt3.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Aufgabe1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aufgabe2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aufgabe4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +36,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="v2yu9gjr" />
   </component>
   <component name="ProjectId" id="1SbFuSXG2QwKeONgn7kgf8sJpWl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -36,7 +52,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555073730266" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Aufgabenblatt2" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.116027534" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -46,6 +65,15 @@
   <component name="RunManager" selected="Application.Aufgabe1">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,15 +140,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Aufgabe1" />
       <item itemvalue="Application.Aufgabe2" />
@@ -130,11 +149,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aufgabe1" />
         <item itemvalue="Application.Aufgabe3" />
         <item itemvalue="Application.Aufgabe2" />
         <item itemvalue="Application.Aufgabe5" />
         <item itemvalue="Application.Aufgabe4" />
-        <item itemvalue="Application.Aufgabe1" />
       </list>
     </recent_temporary>
   </component>
@@ -160,34 +179,57 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
-      <path value="$PROJECT_DIR$/../../.." />
+      <path value="$USER_HOME$" />
     </ignored-roots>
     <MESSAGE value="A1 geändert" />
     <option name="LAST_COMMIT_MESSAGE" value="A1 geändert" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1557" height="51" key="GridCell.Tab.0.bottom" timestamp="1605279824121">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="743" y="339" width="424" height="491" key="FileChooserDialogImpl" timestamp="1606310228838">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state x="743" y="339" width="424" height="491" key="FileChooserDialogImpl/2560.1440.1920.1200/2560.0.2560.1440/0.27.1920.1173@0.27.1920.1173" timestamp="1606310228838" />
+    <state width="1920" height="367" key="GridCell.Tab.0.bottom" timestamp="1606308696882">
+      <screen x="0" y="27" width="1920" height="1173" />
     </state>
     <state width="1326" height="281" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1603968480534" />
     <state width="1557" height="51" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605279824121" />
-    <state width="1557" height="51" key="GridCell.Tab.0.center" timestamp="1605279824121">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1920" height="367" key="GridCell.Tab.0.bottom/2560.1440.1920.1200/2560.0.2560.1440/0.27.1920.1173@0.27.1920.1173" timestamp="1606308696882" />
+    <state width="1920" height="367" key="GridCell.Tab.0.center" timestamp="1606308696882">
+      <screen x="0" y="27" width="1920" height="1173" />
     </state>
     <state width="1326" height="281" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1603968480534" />
     <state width="1557" height="51" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1605279824121" />
-    <state width="1557" height="51" key="GridCell.Tab.0.left" timestamp="1605279824120">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1920" height="367" key="GridCell.Tab.0.center/2560.1440.1920.1200/2560.0.2560.1440/0.27.1920.1173@0.27.1920.1173" timestamp="1606308696882" />
+    <state width="1920" height="367" key="GridCell.Tab.0.left" timestamp="1606308696882">
+      <screen x="0" y="27" width="1920" height="1173" />
     </state>
     <state width="1326" height="281" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1603968480534" />
     <state width="1557" height="51" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1605279824120" />
-    <state width="1557" height="51" key="GridCell.Tab.0.right" timestamp="1605279824121">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1920" height="367" key="GridCell.Tab.0.left/2560.1440.1920.1200/2560.0.2560.1440/0.27.1920.1173@0.27.1920.1173" timestamp="1606308696882" />
+    <state width="1920" height="367" key="GridCell.Tab.0.right" timestamp="1606308696882">
+      <screen x="0" y="27" width="1920" height="1173" />
     </state>
     <state width="1326" height="281" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1603968480534" />
     <state width="1557" height="51" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1605279824121" />
+    <state width="1920" height="367" key="GridCell.Tab.0.right/2560.1440.1920.1200/2560.0.2560.1440/0.27.1920.1173@0.27.1920.1173" timestamp="1606308696882" />
     <state width="1326" height="281" key="GridCell.Tab.1.bottom" timestamp="1603968480534">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
@@ -208,6 +250,14 @@
     </state>
     <state width="1326" height="281" key="GridCell.Tab.1.right/0.0.1368.872@0.0.1368.872" timestamp="1603968480534" />
     <state width="937" height="272" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1603901365733" />
+    <state x="784" y="336" width="992" height="737" key="SettingsEditor" timestamp="1606303891070">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state x="784" y="336" width="992" height="737" key="SettingsEditor/2560.1440.1920.1200/2560.0.2560.1440/0.27.2560.1413@0.27.2560.1413" timestamp="1606303891070" />
+    <state x="943" y="349" width="672" height="678" key="search.everywhere.popup" timestamp="1606304044268">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state x="943" y="349" width="672" height="678" key="search.everywhere.popup/2560.1440.1920.1200/2560.0.2560.1440/0.27.2560.1413@0.27.2560.1413" timestamp="1606304044268" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
