@@ -4,8 +4,8 @@
 public class Aufgabe2 {
 
     private static void addSeparator(String text, char separator) {
-        String seperated = String.join(Character.toString(separator), text.split(""));
-        System.out.println(seperated);
+        String separated = String.join(Character.toString(separator), text.split(""));
+        System.out.println(separated);
     }
 
     private static void addSeparator(int number, char separator) {
