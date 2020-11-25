@@ -4,21 +4,45 @@
 public class Aufgabe3 {
 
     private static void printNumbersAscending(int start, int end, int divider) {
-        //TODO: Implementieren Sie hier Ihre Lösung für die Methode
+        if (start <= end) {
+            if (start % divider == 0) {
+                System.out.println(start);
+            }
+            printNumbersAscending(start + 1, end, divider);
+        }
     }
 
     private static void printNumbersDescending(int start, int end, int divider) {
-        //TODO: Implementieren Sie hier Ihre Lösung für die Methode
+        if (start <= end) {
+            printNumbersDescending(start + 1, end, divider);
+
+            if (start % divider != 0) {
+                System.out.println(start);
+            }
+        }
     }
 
     private static int calcCrossSum(int number) {
-        //TODO: Implementieren Sie hier Ihre Lösung für die Methode
-        return -1; //Zeile kann geändert oder entfernt werden.
+        if (number > 0) {
+            int quotient = (int) Math.floor(number / 10);
+            int rest = number % 10;
+
+            return calcCrossSum(quotient) + rest;
+        } else {
+            return 0;
+        }
     }
 
     private static String duplicateLetterInString(String text, char letter) {
-        //TODO: Implementieren Sie hier Ihre Lösung für die Methode
-        return null; //Zeile kann geändert oder entfernt werden.
+        if (text.length() > 0) {
+            if (text.charAt(0) == letter) {
+                return Character.toString(letter) + Character.toString(letter) + duplicateLetterInString(text.substring(1), letter);
+            } else {
+                return text.charAt(0) + duplicateLetterInString(text.substring(1), letter);
+            }
+        } else {
+            return "";
+        }
     }
 
     public static void main(String[] args) {
