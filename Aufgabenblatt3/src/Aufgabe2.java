@@ -4,19 +4,22 @@
 public class Aufgabe2 {
 
     private static void addSeparator(String text, char separator) {
-        //TODO: Implementieren Sie hier Ihre Lösung für die Angabe
+        String seperated = String.join(Character.toString(separator), text.split(""));
+        System.out.println(seperated);
     }
 
     private static void addSeparator(int number, char separator) {
-        //TODO: Implementieren Sie hier Ihre Lösung für die Angabe
+        addSeparator(Integer.toString(number), separator);
     }
 
     private static void addSeparator(String text, String separators) {
-        //TODO: Implementieren Sie hier Ihre Lösung für die Angabe
+        for (char separator : separators.toCharArray()) {
+            addSeparator(text, separator);
+        }
     }
 
     private static void addSeparator(String text) {
-        //TODO: Implementieren Sie hier Ihre Lösung für die Angabe
+        addSeparator(text, '$');
     }
 
     public static void main(String[] args) {
