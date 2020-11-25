@@ -4,18 +4,40 @@
 public class Aufgabe4 {
 
     private static int countCharsSmaller(String text, char value) {
-        // TODO: Implementieren Sie hier Ihre Lösung für die Methode
-        return -1;
+        if (text != null && text.length() > 0) {
+            if (text.charAt(0) < value) {
+                return 1 + countCharsSmaller(text.substring(1), value);
+            } else {
+                return 0 + countCharsSmaller(text.substring(1), value);
+            }
+        }
+
+       return 0;
     }
 
     private static String removeCharsInString(String text, char start, char end) {
-        // TODO: Implementieren Sie hier Ihre Lösung für die Methode
-        return null; //Zeile kann geändert oder entfernt werden.
+        if (text != null && text.length() > 0) {
+            if (start < text.charAt(0) && text.charAt(0) < end) {
+                return removeCharsInString(text.substring(1), start, end);
+            } else {
+                return text.charAt(0) + removeCharsInString(text.substring(1), start, end);
+            }
+        }
+
+        return "";
     }
 
     private static String shiftDigitRight(String text) {
-        // TODO: Implementieren Sie hier Ihre Lösung für die Methode
-        return null; //Zeile kann geändert oder entfernt werden.
+        if (text.length() > 1) {
+            char firstChar = text.charAt(0);
+            if ('0' < firstChar && firstChar < '9') {
+                return  shiftDigitRight(Character.toString(text.charAt(1)) + Character.toString(text.charAt(0)) + text.substring(2));
+            } else {
+                return Character.toString(text.charAt(0)) + shiftDigitRight(text.substring(1));
+            }
+        } else {
+            return text;
+        }
     }
 
     public static void main(String[] args) {
