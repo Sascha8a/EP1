@@ -1,0 +1,22 @@
+
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ô´€à.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(÷ºâÿÿÿÿÿÿ8¢ê˜€à.
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(ã³øÃùÿÿÿÿ
+U	java:S106D"9Replace this use of System.out or System.err by a logger.(ğ¦ğÍ8Ô´€à.
+S	java:S106F"9Replace this use of System.out or System.err by a logger.(µ‰ĞÈşÿÿÿÿ
+_
+java:S2184"BCast one of the operands of this division operation to a "double".(ª¥Á8¶ª·€à.
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(¶ÁÇ–úÿÿÿÿ
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(á¾¢
+Z	java:S106	"9Replace this use of System.out or System.err by a logger.(÷ºâÿÿÿÿÿÿ8·•€à.
+Z	java:S1064"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ô´€à.
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(ÍÑÏøûÿÿÿÿ
+U	java:S1066"9Replace this use of System.out or System.err by a logger.(ú’Ï8Ô´€à.
+Z	java:S106B"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ô´€à.
+N	java:S106G"9Replace this use of System.out or System.err by a logger.(´‹Õ‡
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(Ö­°ş
+h
+java:S1192G"KDefine a constant instead of duplicating this literal "a1b2c3d4e5" 3 times.(´‹Õ‡8Ô´€à.
+C
+java:S2185"&Remove this silly call to "Math.floor"(ª¥Á8¶ª·€à.
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(§×Å·

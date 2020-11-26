@@ -4,7 +4,6 @@ import java.awt.*;
     Aufgabe 5) Kreuzmuster mit Rechtecken => Rekursiv vs. Iterativ
 */
 public class Aufgabe5 {
-
     private static void drawPatternRecursive(int x, int y, int l, boolean c) {
         if (l >= 16) {
             drawPatternRecursive(x - l / 4, y + l / 4, l / 2, !c);
@@ -54,16 +53,28 @@ public class Aufgabe5 {
         StdDraw.setYscale(0, length);
 
 
-//        StdDraw. enableDoubleBuffering();
+        // StdDraw. enableDoubleBuffering();
         drawPatternRecursive(length / 2, length / 2, length, true);
-//        StdDraw.disableDoubleBuffering();
-//        StdDraw.show();
+        // StdDraw.disableDoubleBuffering();
+        // StdDraw.show();
 
-//        StdDraw. enableDoubleBuffering();
-        drawPatternIterative(length);
-//        StdDraw.disableDoubleBuffering();
-//        StdDraw.show();
+        // StdDraw. enableDoubleBuffering();
+        // drawPatternIterative(length);
+        // StdDraw.disableDoubleBuffering();
+        // StdDraw.show();
     }
 }
 
+/* Zusatzfrage 1:
+ * 1 + 4 + 4^2 + 4^3 + 4^4 + 4^5 = 1365
+ */
 
+ /* Zusatzfrage 2:
+  * 4^5 = 1024
+  */
+
+  /* Zusatzfrage 3:
+  * Rechts oben nicht zeichnen.
+  * Folgendes auskommentieren:
+  *         drawPatternRecursive(x + l / 4, y + l / 4, l / 2, !c);
+  */

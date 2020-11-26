@@ -1,0 +1,28 @@
+
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(°•ù­
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(·¨ÒŽ
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(ÄÕ¹æ
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+S	java:S106."9Replace this use of System.out or System.err by a logger.(éßœ–þÿÿÿÿ
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(­¡¦øÿÿÿÿ
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(‹¡ðÛøÿÿÿÿ
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(çÍœù
+M	java:S1062"9Replace this use of System.out or System.err by a logger.(Š‚á$
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(äôè±
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(ý§Ñ´úÿÿÿÿ
+O
+java:S3346D"4Move this "assert" side effect to another statement.(˜€¿ãøÿÿÿÿ
+a
+java:S1192<"KDefine a constant instead of duplicating this literal "ohneziffer" 3 times.(ÄÕ¹æ
+O
+java:S3346C"4Move this "assert" side effect to another statement.(Ì¯Ýýøÿÿÿÿ
+J
+java:S3346E"4Move this "assert" side effect to another statement.(ÀÓÒ·
+h
+java:S1192;"KDefine a constant instead of duplicating this literal "ji)oiepk(2" 3 times.(·¨ÒŽ8‹Ë ‚à.
+U	java:S106,"9Replace this use of System.out or System.err by a logger.(ÕÚÊ8‹Ë ‚à.
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(Àªß†ûÿÿÿÿ8‹Ë ‚à.
+Z	java:S1067"9Replace this use of System.out or System.err by a logger.(ËŸ“þøÿÿÿÿ8‹Ë ‚à.
+V
+java:S3346B"4Move this "assert" side effect to another statement.(£ìÔûÿÿÿÿ8‹Ë ‚à.
