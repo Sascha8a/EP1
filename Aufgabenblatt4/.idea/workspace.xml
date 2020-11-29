@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d07a01e8-eda5-4564-867b-5ae8298772c8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Aufgabenblatt2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Aufgabenblatt2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Aufgabenblatt2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aufgabenblatt3/.idea/sonarlint/issuestore/b/f/bf65e4a98a76e9286c88384d0a5785aae10ef4d1" beforeDir="false" afterPath="$PROJECT_DIR$/../Aufgabenblatt3/.idea/sonarlint/issuestore/b/f/bf65e4a98a76e9286c88384d0a5785aae10ef4d1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angabe/Aufgabenblatt3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/angabe/Aufgabenblatt3.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Aufgabe1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aufgabe2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aufgabe4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +37,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="epuu440d" />
   </component>
   <component name="ProjectId" id="1TChpwsPjVojiGQM7EY6cLtCiCN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -34,18 +51,31 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555618944995" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.116027534" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Aufgabe3">
+  <component name="RunManager" selected="Application.Aufgabe1">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,15 +144,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Aufgabe1" />
       <item itemvalue="Application.Aufgabe2" />
@@ -132,11 +153,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aufgabe1" />
         <item itemvalue="Application.Aufgabe3" />
         <item itemvalue="Application.Aufgabe4" />
         <item itemvalue="Application.Aufgabe2" />
         <item itemvalue="Application.Aufgabe5" />
-        <item itemvalue="Application.Aufgabe1" />
       </list>
     </recent_temporary>
   </component>
@@ -162,34 +183,52 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
-      <path value="$PROJECT_DIR$/../../.." />
+      <path value="$USER_HOME$" />
     </ignored-roots>
     <MESSAGE value="A1 geändert" />
     <option name="LAST_COMMIT_MESSAGE" value="A1 geändert" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1189" height="275" key="GridCell.Tab.0.bottom" timestamp="1606226111207">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1878" height="316" key="GridCell.Tab.0.bottom" timestamp="1606649390800">
+      <screen x="0" y="27" width="1920" height="1173" />
     </state>
     <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605732354857" />
     <state width="1189" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606226111207" />
-    <state width="1189" height="275" key="GridCell.Tab.0.center" timestamp="1606226111207">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1878" height="316" key="GridCell.Tab.0.bottom/0.27.1920.1173@0.27.1920.1173" timestamp="1606649390800" />
+    <state width="1878" height="316" key="GridCell.Tab.0.center" timestamp="1606649390799">
+      <screen x="0" y="27" width="1920" height="1173" />
     </state>
     <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1605732354857" />
     <state width="1189" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606226111207" />
-    <state width="1189" height="275" key="GridCell.Tab.0.left" timestamp="1606226111207">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1878" height="316" key="GridCell.Tab.0.center/0.27.1920.1173@0.27.1920.1173" timestamp="1606649390799" />
+    <state width="1878" height="316" key="GridCell.Tab.0.left" timestamp="1606649390798">
+      <screen x="0" y="27" width="1920" height="1173" />
     </state>
     <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1605732354857" />
     <state width="1189" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606226111207" />
-    <state width="1189" height="275" key="GridCell.Tab.0.right" timestamp="1606226111207">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1878" height="316" key="GridCell.Tab.0.left/0.27.1920.1173@0.27.1920.1173" timestamp="1606649390798" />
+    <state width="1878" height="316" key="GridCell.Tab.0.right" timestamp="1606649390800">
+      <screen x="0" y="27" width="1920" height="1173" />
     </state>
     <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1605732354857" />
     <state width="1189" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606226111207" />
+    <state width="1878" height="316" key="GridCell.Tab.0.right/0.27.1920.1173@0.27.1920.1173" timestamp="1606649390800" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1605651261027">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -210,6 +249,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="334" y="165" width="932" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1600.860@0.0.1600.860" timestamp="1605644840296" />
+    <state x="623" y="289" width="672" height="678" key="search.everywhere.popup" timestamp="1606646493774">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state x="623" y="289" width="672" height="678" key="search.everywhere.popup/0.27.1920.1173@0.27.1920.1173" timestamp="1606646493774" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
