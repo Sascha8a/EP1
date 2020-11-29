@@ -3,21 +3,52 @@
 */
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class Aufgabe3 {
 
     private static int[] genRandomArray(int length, int maxNumber) {
-        //TODO: Implementieren Sie hier Ihre Lösung für die Angabe
-        return null; //Zeile kann geändert oder entfernt werden.
+         Random random = new Random();
+
+         int[] array = new int[length];
+
+        for (int i = 0; i < array.length; i++) {
+            array[i] = random.nextInt(maxNumber);
+        }
+
+        return array;
     }
 
     private static void filterMaxMinValue(int[] workArray) {
-        //TODO: Implementieren Sie hier Ihre Lösung für die Angabe
+        int min = workArray[0];
+        int minIndex = 0;
+
+        int max = workArray[0];
+        int maxIndex = 0;
+
+        for (int i = 0; i < workArray.length; i++) {
+            if (workArray[i] < min) {
+                min = workArray[i];
+                minIndex = i;
+            }
+
+            if (workArray[i] > max) {
+                max = workArray[i];
+                maxIndex = i;
+            }
+        }
+
+        workArray[minIndex] = -1;
+        workArray[maxIndex] = -1;
     }
 
     private static int[] combineArrays(int[] workArray1, int[] workArray2) {
-        //TODO: Implementieren Sie hier Ihre Lösung für die Angabe
-        return null; //Zeile kann geändert oder entfernt werden.
+        int[] newArray = new int[workArray1.length + workArray2.length];
+
+        System.arraycopy(workArray1, 0, newArray, 0, workArray1.length);
+        System.arraycopy(workArray2, 0, newArray, workArray1.length, workArray2.length);
+
+        return newArray;
     }
 
     public static void main(String[] args) {

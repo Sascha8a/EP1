@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d07a01e8-eda5-4564-867b-5ae8298772c8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aufgabe2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555618944995" />
@@ -63,7 +67,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Aufgabe2">
+  <component name="RunManager" selected="Application.Aufgabe3">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -152,9 +156,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aufgabe3" />
         <item itemvalue="Application.Aufgabe2" />
         <item itemvalue="Application.Aufgabe1" />
-        <item itemvalue="Application.Aufgabe3" />
         <item itemvalue="Application.Aufgabe4" />
         <item itemvalue="Application.Aufgabe5" />
       </list>
@@ -205,30 +209,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="A1 geändert" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="391" key="GridCell.Tab.0.bottom" timestamp="1606656927940">
+    <state width="1920" height="436" key="GridCell.Tab.0.bottom" timestamp="1606664113717">
       <screen x="0" y="27" width="1920" height="1173" />
     </state>
     <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605732354857" />
     <state width="1189" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606226111207" />
-    <state width="1878" height="391" key="GridCell.Tab.0.bottom/0.27.1920.1173@0.27.1920.1173" timestamp="1606656927940" />
-    <state width="1878" height="391" key="GridCell.Tab.0.center" timestamp="1606656927940">
+    <state width="1920" height="436" key="GridCell.Tab.0.bottom/0.27.1920.1173@0.27.1920.1173" timestamp="1606664113717" />
+    <state width="1920" height="436" key="GridCell.Tab.0.center" timestamp="1606664113717">
       <screen x="0" y="27" width="1920" height="1173" />
     </state>
     <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1605732354857" />
     <state width="1189" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606226111207" />
-    <state width="1878" height="391" key="GridCell.Tab.0.center/0.27.1920.1173@0.27.1920.1173" timestamp="1606656927940" />
-    <state width="1878" height="391" key="GridCell.Tab.0.left" timestamp="1606656927940">
+    <state width="1920" height="436" key="GridCell.Tab.0.center/0.27.1920.1173@0.27.1920.1173" timestamp="1606664113717" />
+    <state width="1920" height="436" key="GridCell.Tab.0.left" timestamp="1606664113716">
       <screen x="0" y="27" width="1920" height="1173" />
     </state>
     <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1605732354857" />
     <state width="1189" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606226111207" />
-    <state width="1878" height="391" key="GridCell.Tab.0.left/0.27.1920.1173@0.27.1920.1173" timestamp="1606656927940" />
-    <state width="1878" height="391" key="GridCell.Tab.0.right" timestamp="1606656927940">
+    <state width="1920" height="436" key="GridCell.Tab.0.left/0.27.1920.1173@0.27.1920.1173" timestamp="1606664113716" />
+    <state width="1920" height="436" key="GridCell.Tab.0.right" timestamp="1606664113717">
       <screen x="0" y="27" width="1920" height="1173" />
     </state>
     <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1605732354857" />
     <state width="1189" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606226111207" />
-    <state width="1878" height="391" key="GridCell.Tab.0.right/0.27.1920.1173@0.27.1920.1173" timestamp="1606656927940" />
+    <state width="1920" height="436" key="GridCell.Tab.0.right/0.27.1920.1173@0.27.1920.1173" timestamp="1606664113717" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1605651261027">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -245,10 +249,15 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1605651261026" />
-    <state x="334" y="165" width="932" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605644840296">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="681" y="480" width="554" height="221" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1606663925983">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state x="681" y="480" width="554" height="221" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.27.1920.1173@0.27.1920.1173" timestamp="1606663925983" />
+    <state x="401" y="248" width="932" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1606664125948">
+      <screen x="0" y="27" width="1920" height="1173" />
     </state>
     <state x="334" y="165" width="932" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1600.860@0.0.1600.860" timestamp="1605644840296" />
+    <state x="401" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.27.1920.1173@0.27.1920.1173" timestamp="1606664125948" />
     <state x="623" y="289" width="672" height="678" key="search.everywhere.popup" timestamp="1606660251796">
       <screen x="0" y="27" width="1920" height="1173" />
     </state>
@@ -260,6 +269,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NumberFormatException" package="java.lang" />
           <option name="timeStamp" value="4" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.AssertionError" package="java.lang" />
+          <option name="timeStamp" value="5" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
