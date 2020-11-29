@@ -2,7 +2,6 @@
     Aufgabe 3) Rekursion
 */
 public class Aufgabe3 {
-
     private static void printNumbersAscending(int start, int end, int divider) {
         if (start <= end) {
             if (start % divider == 0) {

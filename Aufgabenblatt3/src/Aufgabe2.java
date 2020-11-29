@@ -2,10 +2,12 @@
     Aufgabe 2) Überladen von Methoden
 */
 public class Aufgabe2 {
-
     private static void addSeparator(String text, char separator) {
-        String separated = String.join(Character.toString(separator), text.split(""));
-        System.out.println(separated);
+        for (int i = 0; i < text.length() - 1; i++) {
+            System.out.print(text.charAt(i));
+            System.out.print(separator);
+        }
+        System.out.println(text.charAt(text.length() - 1));
     }
 
     private static void addSeparator(int number, char separator) {
