@@ -1,0 +1,47 @@
+
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(±ğœşÿÿÿÿ
+D
+java:S1125f")Remove the literal "false" boolean value.(Ğ¥İıÿÿÿÿ
+H
+java:S1172/"&Remove these unused method parameters.(òĞ¼éûÿÿÿÿ8·õÈ©á.
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(Âóó 
+M	java:S106Q"9Replace this use of System.out or System.err by a logger.(²²Á3
+>
+java:S1125^"(Remove the literal "true" boolean value.(¦ÒÍõ
+>
+java:S1125`"(Remove the literal "true" boolean value.(Äõ°
+>
+java:S1125e"(Remove the literal "true" boolean value.(×¬äŸ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+M	java:S1068"9Replace this use of System.out or System.err by a logger.(İóİg
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(ŸÜù
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(·ë®¯úÿÿÿÿ
+>
+java:S1125d")Remove the literal "false" boolean value.(Ë¡©[
+>
+java:S1125g"(Remove the literal "true" boolean value.(É£Øò
+U	java:S106L"9Replace this use of System.out or System.err by a logger.(×ØÜñ8·õÈ©á.
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(¶Ï›È
+U	java:S1066"9Replace this use of System.out or System.err by a logger.(ø­­³8·õÈ©á.
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(Á©õ¯şÿÿÿÿ
+S	java:S106P"9Replace this use of System.out or System.err by a logger.(°ÑÒ³úÿÿÿÿ
+S	java:S106H"9Replace this use of System.out or System.err by a logger.(Øøòúÿÿÿÿ
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(Ü€ùæıÿÿÿÿ
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+E
+java:S1125]"(Remove the literal "true" boolean value.(¿„ÀŞ8·õÈ©á.
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(©ÁÜûÿÿÿÿ
+N	java:S106F"9Replace this use of System.out or System.err by a logger.(Œ·Ç­
+J
+java:S1125b"(Remove the literal "true" boolean value.(ç±„ëûÿÿÿÿ8·õÈ©á.
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+U	java:S106D"9Replace this use of System.out or System.err by a logger.(¢°‘ñ8·õÈ©á.
+C
+java:S1125c"(Remove the literal "true" boolean value.(ºõÓ¦ıÿÿÿÿ
+T
+java:S11350"2Complete the task associated to this TODO comment.(ñ ‡…şÿÿÿÿ8·õÈ©á.
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(Ò€ˆÛûÿÿÿÿ8·õÈ©á.
+C
+java:S1125_"(Remove the literal "true" boolean value.(‚œÌßûÿÿÿÿ
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(ÆµŒ†ùÿÿÿÿ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(ŸÄÁº

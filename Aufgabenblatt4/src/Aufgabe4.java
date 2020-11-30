@@ -7,23 +7,58 @@ import java.util.Arrays;
 public class Aufgabe4 {
 
     private static int getHighestAverage(int[] workArray, int start, int end) {
-        // TODO: Implementieren Sie hier Ihre Lösung für die Methode
-        return -1; //Zeile kann geändert oder entfernt werden.
+        if (end - start < 3) {
+            return 0;
+        }
+
+        int average = (workArray[start] + workArray[start + 1] + workArray[start + 2] + workArray[start + 3]) / 4;
+
+        return Math.max(average, getHighestAverage(workArray, start + 1, end));
     }
 
     private static int getHighestDifference(int[] workArray, int index) {
-        // TODO: Implementieren Sie hier Ihre Lösung für die Methode
-        return -1; //Zeile kann geändert oder entfernt werden.
+        if (index == workArray.length - 1) {
+            return 0;
+        }
+
+        int difference = Math.abs(workArray[index] - workArray[index + 1]);
+
+        return Math.max(difference, getHighestDifference(workArray, index + 1));
     }
 
     private static int[] genArrayWithEvenNumbers(int[] workArray, int index) {
-        // TODO: Implementieren Sie hier Ihre Lösung für die Methode
-        return null; //Zeile kann geändert oder entfernt werden.
+        int[] newArray = new int[workArray.length];
+        System.arraycopy(workArray, 0, newArray, 0, workArray.length);
+
+        if (index < workArray.length - 1) {
+            int[] even = genArrayWithEvenNumbers(workArray, index + 1);
+            System.arraycopy(even, index+1, newArray, index+1, workArray.length - index - 1);
+        }
+
+        if (workArray[index] % 2 == 0) {
+            newArray[index] = workArray[index];
+        } else {
+            newArray[index] = 0;
+        }
+
+        return newArray;
     }
 
     private static boolean containsValue(int[] workArray, int value) {
-        // TODO: Implementieren Sie hier Ihre Lösung für die Methode
-        return false; //Zeile kann geändert oder entfernt werden.
+        if (workArray.length == 1) {
+            return workArray[0] == value;
+        }
+
+        int leftSize = workArray.length / 2;
+        int rightSize = workArray.length / 2 + (workArray.length % 2 > 0 ? 1 : 0);
+
+        int[] left = new int[leftSize];
+        int[] right = new int[rightSize];
+
+        System.arraycopy(workArray, 0, left, 0, leftSize);
+        System.arraycopy(workArray, leftSize, right, 0, rightSize);
+
+        return containsValue(left, value) || containsValue(right, value);
     }
 
     public static void main(String[] args) {
