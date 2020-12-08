@@ -7,3 +7,7 @@ A
 src/Aufgabe2.java,5/1/516935dfe3039978df9371ada08987a0c718eede
 A
 src/Aufgabe4.java,d/e/de88710c2cd7f2dc2d2759e7875cea31e9a138f8
+D
+src/weather_data.csv,2/f/2ff05ea12e5f5c6eebe6f85c22435249572a6ea0
+A
+src/Aufgabe5.java,6/d/6d801086c2834c62fd3419b5a242033de574a73e
