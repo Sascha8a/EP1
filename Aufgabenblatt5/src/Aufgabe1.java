@@ -57,8 +57,20 @@ public class Aufgabe1 {
     }
 
     private static int[] reformatArray(int[][] inputArray) {
-        // TODO: Implementieren Sie hier Ihre Lösung für die Methode
-        return null; //Zeile kann geändert oder entfernt werden.
+        int[] result = new int[inputArray.length];
+
+        for (int i = 0; i < inputArray.length; i++) {
+            int[] current = inputArray[i];
+            int acc = 0;
+
+            for (int j = 0; j < current.length; j++) {
+                acc += current[j] * Math.pow(2, current.length - j - 1);
+            }
+
+            result[i] = acc;
+        }
+
+        return result;
     }
 
     //Vorgegebene Methode - BITTE NICHT VERÄNDERN!
