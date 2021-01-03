@@ -1,28 +1,28 @@
 
-:
-java:S2119"Save and re-use this "Random".(¼İÅf8Îıè¤á.
-E
-java:S1125L"(Remove the literal "true" boolean value.(²æÁö8´ô’¥á.
-E
-java:S1125B"(Remove the literal "true" boolean value.(â°ïñ8´ô’¥á.
-U	java:S106U"9Replace this use of System.out or System.err by a logger.(ì‹¦ı8´ô’¥á.
-E
-java:S1125V"(Remove the literal "true" boolean value.(çéù8´ô’¥á.
+Z	java:S106F"9Replace this use of System.out or System.err by a logger.(Á®¤ûÿÿÿÿÿ8´ô’¥á.
+D
+java:S1125Q"(Remove the literal "true" boolean value.(ÿÁ˜18´ô’¥á.
+Z	java:S106P"9Replace this use of System.out or System.err by a logger.(ª½®ùÿÿÿÿ8´ô’¥á.
 J
 java:S1125G"(Remove the literal "true" boolean value.(şÑ…çüÿÿÿÿ8´ô’¥á.
 J
 java:S1125Z"(Remove the literal "true" boolean value.(Å¶„ÿÿÿÿÿ8´ô’¥á.
-U	java:S106A"9Replace this use of System.out or System.err by a logger.(¢°‘ñ8´ô’¥á.
-Z	java:S106K"9Replace this use of System.out or System.err by a logger.(Ó³Çøÿÿÿÿ8´ô’¥á.
-Z	java:S106]"9Replace this use of System.out or System.err by a logger.(ÒŠ¢ ûÿÿÿÿ8´ô’¥á.
-J
-java:S1125^"(Remove the literal "true" boolean value.(·îåÊøÿÿÿÿ8´ô’¥á.
 Z	java:S1068"9Replace this use of System.out or System.err by a logger.(É»ËÇùÿÿÿÿ8´ô’¥á.
-Z	java:S106P"9Replace this use of System.out or System.err by a logger.(ª½®ùÿÿÿÿ8´ô’¥á.
 U	java:S106<"9Replace this use of System.out or System.err by a logger.(ˆ–€ó8´ô’¥á.
-Z	java:S106Y"9Replace this use of System.out or System.err by a logger.(Ãéôòşÿÿÿÿ8´ô’¥á.
-Z	java:S106F"9Replace this use of System.out or System.err by a logger.(Á®¤ûÿÿÿÿÿ8´ô’¥á.
-D
-java:S1125Q"(Remove the literal "true" boolean value.(ÿÁ˜18´ô’¥á.
 E
 java:S1125="(Remove the literal "true" boolean value.(ŠËªí8´ô’¥á.
+U	java:S106A"9Replace this use of System.out or System.err by a logger.(¢°‘ñ8´ô’¥á.
+U	java:S106U"9Replace this use of System.out or System.err by a logger.(ì‹¦ı8´ô’¥á.
+J
+java:S1125^"(Remove the literal "true" boolean value.(·îåÊøÿÿÿÿ8´ô’¥á.
+:
+java:S2119"Save and re-use this "Random".(¼İÅf8Îıè¤á.
+E
+java:S1125B"(Remove the literal "true" boolean value.(â°ïñ8´ô’¥á.
+E
+java:S1125V"(Remove the literal "true" boolean value.(çéù8´ô’¥á.
+Z	java:S106Y"9Replace this use of System.out or System.err by a logger.(Ãéôòşÿÿÿÿ8´ô’¥á.
+E
+java:S1125L"(Remove the literal "true" boolean value.(²æÁö8´ô’¥á.
+Z	java:S106]"9Replace this use of System.out or System.err by a logger.(ÒŠ¢ ûÿÿÿÿ8´ô’¥á.
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(Ó³Çøÿÿÿÿ8´ô’¥á.

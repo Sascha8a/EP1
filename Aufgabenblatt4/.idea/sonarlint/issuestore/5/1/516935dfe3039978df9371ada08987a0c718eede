@@ -1,10 +1,10 @@
 
+U	java:S106G"9Replace this use of System.out or System.err by a logger.(‰Ë²¾8…öÓ á.
 U	java:S106>"9Replace this use of System.out or System.err by a logger.(‰Ë²¾8¥‘Õ á.
-Z	java:S106E"9Replace this use of System.out or System.err by a logger.(¨À—’ıÿÿÿÿ8…öÓ á.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ììíıùÿÿÿÿ8õŞá.
 Z	java:S106A"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¡Ö á.
 U	java:S106;"9Replace this use of System.out or System.err by a logger.(¥ØÀç8¥‘Õ á.
-U	java:S106G"9Replace this use of System.out or System.err by a logger.(‰Ë²¾8…öÓ á.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ììíıùÿÿÿÿ8õŞá.
-Z	java:S106I"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8…öÓ á.
 O
 java:S1199:"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8äÕÔ á.
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(¨À—’ıÿÿÿÿ8…öÓ á.
+Z	java:S106I"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8…öÓ á.
