@@ -28,7 +28,13 @@ public class Aufgabe1 {
     }
 
     private static void shiftLinesInArray(int[][] workArray) {
-        // TODO: Implementieren Sie hier Ihre Lösung für die Methode
+        int[] lastRow = workArray[workArray.length - 1];
+
+        for (int i = workArray.length - 2; i >= 0; i--) {
+            workArray[i+1] = workArray[i];
+        }
+
+        workArray[0] = lastRow;
     }
 
     private static int[][] extendArray(int[][] inputArray) {
