@@ -31,15 +31,29 @@ public class Aufgabe1 {
         int[] lastRow = workArray[workArray.length - 1];
 
         for (int i = workArray.length - 2; i >= 0; i--) {
-            workArray[i+1] = workArray[i];
+            workArray[i + 1] = workArray[i];
         }
 
         workArray[0] = lastRow;
     }
 
     private static int[][] extendArray(int[][] inputArray) {
-        // TODO: Implementieren Sie hier Ihre Lösung für die Methode
-        return null; //Zeile kann geändert oder entfernt werden.
+        int maxLength = inputArray[0].length;
+        for (int[] row : inputArray) {
+            if (maxLength < row.length) {
+                maxLength = row.length;
+            }
+        }
+
+        int[][] result = new int[inputArray.length][maxLength];
+
+        for (int i = 0; i < inputArray.length; i++) {
+            int[] current = inputArray[i];
+            boolean shift = i % 2 == 0;
+            System.arraycopy(current, 0, result[i], shift ? maxLength - current.length : 0, current.length);
+        }
+
+        return result;
     }
 
     private static int[] reformatArray(int[][] inputArray) {
