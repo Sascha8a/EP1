@@ -7,11 +7,17 @@ import java.awt.event.KeyEvent;
 
 public class Aufgabe1 {
     private static final int SQUARE_SIZE = 40;
+
     private static final char FIELD_EMPTY = ' ';
     private static final char FIELD_WALL = '#';
     private static final char FIELD_GOAL = '.';
     private static final char FIELD_CRATE = '$';
     private static final char FIELD_PLAYER = '@';
+
+    private static final int DIRECTION_UP = 1;
+    private static final int DIRECTION_DOWN = 2;
+    private static final int DIRECTION_LEFT = 3;
+    private static final int DIRECTION_RIGHT = 4;
 
     public static void main(String[] args) {
         String[] allLevels = readLevels();
@@ -176,21 +182,6 @@ public class Aufgabe1 {
         return acc;
     }
 
-    // calculates based on the current position and the direction the new position coordinates
-    private static int[] adjacentPosition(int[] position, int direction) {
-        switch (direction) {
-            case 1:
-                return new int[]{position[0], position[1] - 1};
-            case 2:
-                return new int[]{position[0], position[1] + 1};
-            case 3:
-                return new int[]{position[0] - 1, position[1]};
-            case 4:
-                return new int[]{position[0] + 1, position[1]};
-        }
-        return new int[]{-1, -1};
-    }
-
     // returns position of the figure. [0] = x, [1] = y
     private static int[] figurePosition(char[][] level) {
         for (int y = 0; y < level.length; y++) {
@@ -204,11 +195,73 @@ public class Aufgabe1 {
         return null;
     }
 
+    private static int[] incrementPosition(int[] pos, int direction, int length) {
+        int[] clone = pos.clone();
+
+        switch (direction) {
+            case DIRECTION_UP: {
+                clone[1] -= length;
+                break;
+            }
+            case DIRECTION_DOWN: {
+                clone[1] += length;
+                break;
+            }
+            case DIRECTION_LEFT: {
+                clone[0] -= length;
+                break;
+            }
+            case DIRECTION_RIGHT: {
+                clone[0] += length;
+                break;
+            }
+        }
+
+        return clone;
+    }
+
+    private static boolean isValidPosition(char[][] level, int[] pos) {
+        int x = pos[0];
+        int y = pos[1];
+
+        return x >= 0 &&
+                x < level[y].length &&
+                y >= 0 &&
+                y < level.length;
+    }
+
     // moves figure and box if they don't hit an obstacle
     // returns true if figure was moved
     private static boolean move(char[][] level, int direction) {
+        int[] currentPosition = figurePosition(level);
+        if (currentPosition == null) {
+            return false;
+        }
 
+        int[] newPosition = incrementPosition(currentPosition, direction, 1);
+        int[] furtherNewPosition = incrementPosition(currentPosition, direction, 2);
+        if (!isValidPosition(level, newPosition)) return false;
+        if (!isValidPosition(level, furtherNewPosition)) return false;
 
+        int cpX = currentPosition[0];
+        int cpY = currentPosition[1];
+        int npX = newPosition[0];
+        int npY = newPosition[1];
+        int fpX = furtherNewPosition[0];
+        int fpY = furtherNewPosition[1];
+
+        if (level[npY][npX] == FIELD_EMPTY) {
+            level[cpY][cpX] = FIELD_EMPTY;
+            level[npY][cpX] = FIELD_PLAYER;
+            return true;
+        }
+
+        if (level[npY][npX] == FIELD_CRATE && level[fpY][fpX] == FIELD_EMPTY) {
+            level[cpY][cpX] = FIELD_EMPTY;
+            level[npY][cpX] = FIELD_PLAYER;
+            level[fpY][fpX] = FIELD_CRATE;
+        }
+        
         return false;
     }
 
