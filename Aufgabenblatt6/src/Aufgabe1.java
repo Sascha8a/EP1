@@ -4,6 +4,7 @@
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
+import java.util.Arrays;
 
 public class Aufgabe1 {
     private static final int SQUARE_SIZE = 40;
@@ -285,8 +286,20 @@ public class Aufgabe1 {
 
     // returns true if all boxes are on a goal
     private static boolean won(char[][] level, int[][] goals) {
-        // TODO: Implementieren Sie hier Ihre Lösung für die Methode
-        return false; //Zeile kann geändert oder entfernt werden.
+        int[][] boxes = boxPositions(level, goals.length);
+
+        int numBoxesOnGoals = 0;
+
+        for (int[] box : boxes) {
+            for (int[] goal : goals) {
+                if (Arrays.equals(box, goal)) {
+                    numBoxesOnGoals += 1;
+                    break;
+                }
+            }
+        }
+
+        return numBoxesOnGoals == goals.length;
     }
 
     // helping method to set the StdDraw window size and the scaling of the axis
