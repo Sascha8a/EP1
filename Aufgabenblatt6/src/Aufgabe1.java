@@ -11,7 +11,7 @@ public class Aufgabe1 {
     private static final char FIELD_EMPTY = ' ';
     private static final char FIELD_WALL = '#';
     private static final char FIELD_GOAL = '.';
-    private static final char FIELD_CRATE = '$';
+    private static final char FIELD_BOX = '$';
     private static final char FIELD_PLAYER = '@';
 
     private static final int DIRECTION_UP = 1;
@@ -256,19 +256,31 @@ public class Aufgabe1 {
             return true;
         }
 
-        if (level[npY][npX] == FIELD_CRATE && level[fpY][fpX] == FIELD_EMPTY) {
+        if (level[npY][npX] == FIELD_BOX && level[fpY][fpX] == FIELD_EMPTY) {
             level[cpY][cpX] = FIELD_EMPTY;
             level[npY][cpX] = FIELD_PLAYER;
-            level[fpY][fpX] = FIELD_CRATE;
+            level[fpY][fpX] = FIELD_BOX;
         }
-        
+
         return false;
     }
 
     // returns current position of all boxes
     private static int[][] boxPositions(char[][] level, int numberOfBoxes) {
-        // TODO: Implementieren Sie hier Ihre Lösung für die Methode
-        return null; //Zeile kann geändert oder entfernt werden.
+        int[][] boxPositions = new int[numberOfBoxes][2];
+        int i = 0;
+
+        for (int y = 0; y < level.length; y++) {
+            for (int x = 0; x < level[y].length; y++) {
+                if (level[y][x] == FIELD_BOX) {
+                    boxPositions[i][0] = x;
+                    boxPositions[i][1] = y;
+                    i += 1;
+                }
+            }
+        }
+
+        return boxPositions;
     }
 
     // returns true if all boxes are on a goal
