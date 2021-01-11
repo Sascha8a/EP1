@@ -20,6 +20,11 @@ public class Aufgabe1 {
     private static final int DIRECTION_LEFT = 3;
     private static final int DIRECTION_RIGHT = 4;
 
+    private static final String ICON_BOX = "./box.png";
+    private static final String ICON_ENDPOINT = "./endpoint.png";
+    private static final String ICON_FIGURE = "./figure.png";
+    private static final String ICON_WALL = "./wall.png";
+
     public static void main(String[] args) {
         String[] allLevels = readLevels();
         int levelId = 0;
@@ -40,7 +45,7 @@ public class Aufgabe1 {
             // up -> right up
             // down -> left down
             // left -> left up
-            // right -> right down
+                // right -> right down
             // restart -> r
             // to next level -> t
             if (StdDraw.isKeyPressed(KeyEvent.VK_UP)) {
@@ -225,10 +230,10 @@ public class Aufgabe1 {
         int x = pos[0];
         int y = pos[1];
 
-        return x >= 0 &&
+        return y >= 0 &&
+                y < level.length &&
                 x < level[y].length &&
-                y >= 0 &&
-                y < level.length;
+                x >= 0;
     }
 
     // moves figure and box if they don't hit an obstacle
@@ -240,26 +245,27 @@ public class Aufgabe1 {
         }
 
         int[] newPosition = incrementPosition(currentPosition, direction, 1);
-        int[] furtherNewPosition = incrementPosition(currentPosition, direction, 2);
         if (!isValidPosition(level, newPosition)) return false;
-        if (!isValidPosition(level, furtherNewPosition)) return false;
 
         int cpX = currentPosition[0];
         int cpY = currentPosition[1];
         int npX = newPosition[0];
         int npY = newPosition[1];
-        int fpX = furtherNewPosition[0];
-        int fpY = furtherNewPosition[1];
 
         if (level[npY][npX] == FIELD_EMPTY) {
             level[cpY][cpX] = FIELD_EMPTY;
-            level[npY][cpX] = FIELD_PLAYER;
+            level[npY][npX] = FIELD_PLAYER;
             return true;
         }
 
+        int[] furtherNewPosition = incrementPosition(currentPosition, direction, 2);
+        if (!isValidPosition(level, furtherNewPosition)) return false;
+        int fpX = furtherNewPosition[0];
+        int fpY = furtherNewPosition[1];
+
         if (level[npY][npX] == FIELD_BOX && level[fpY][fpX] == FIELD_EMPTY) {
             level[cpY][cpX] = FIELD_EMPTY;
-            level[npY][cpX] = FIELD_PLAYER;
+            level[npY][npX] = FIELD_PLAYER;
             level[fpY][fpX] = FIELD_BOX;
         }
 
@@ -272,7 +278,7 @@ public class Aufgabe1 {
         int i = 0;
 
         for (int y = 0; y < level.length; y++) {
-            for (int x = 0; x < level[y].length; y++) {
+            for (int x = 0; x < level[y].length; x++) {
                 if (level[y][x] == FIELD_BOX) {
                     boxPositions[i][0] = x;
                     boxPositions[i][1] = y;
@@ -317,8 +323,44 @@ public class Aufgabe1 {
         StdDraw.show();
     }
 
+    private static int[] convertCoords(int x, int y, int levelRows) {
+        int displayX = x * SQUARE_SIZE;
+        int displayY = (levelRows - y) * SQUARE_SIZE;
+
+        return new int[]{displayX, displayY};
+    }
+
+    private static boolean isGoal(int x, int y, int[][] goals) {
+        for (int[] goal : goals) {
+            if (goal[0] == x && goal[1] == y) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
     // draws the current level with all elements
     private static void drawGame(char[][] level, int[][] goals) {
-        // TODO: Implementieren Sie hier Ihre Lösung für die Methode
+        StdDraw.clear();
+
+        for (int y = 0; y < level.length; y++) {
+            for (int x = 0; x < level[y].length; x++) {
+                char field = level[y][x];
+                String icon;
+
+                if (field == FIELD_EMPTY && !isGoal(x, y, goals)) continue;
+                else if (field == FIELD_BOX) icon = ICON_BOX;
+                else if (field == FIELD_PLAYER) icon = ICON_FIGURE;
+                else if (field == FIELD_WALL) icon = ICON_WALL;
+                else if (isGoal(x, y, goals)) icon = ICON_ENDPOINT;
+                else continue;
+
+                int[] pos = convertCoords(x, y, level.length);
+                StdDraw.picture(pos[0], pos[1], icon, SQUARE_SIZE, SQUARE_SIZE);
+            }
+        }
+
+        StdDraw.show();
     }
 }
