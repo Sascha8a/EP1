@@ -7,6 +7,11 @@ import java.awt.event.KeyEvent;
 
 public class Aufgabe1 {
     private static final int SQUARE_SIZE = 40;
+    private static final char FIELD_EMPTY = ' ';
+    private static final char FIELD_WALL = '#';
+    private static final char FIELD_GOAL = '.';
+    private static final char FIELD_CRATE = '$';
+    private static final char FIELD_PLAYER = '@';
 
     public static void main(String[] args) {
         String[] allLevels = readLevels();
@@ -160,8 +165,15 @@ public class Aufgabe1 {
 
     // returns the total number of goals in the level
     private static int numberOfGoals(String levelString) {
-        // TODO: Implementieren Sie hier Ihre Lösung für die Methode
-        return -1; //Zeile kann geändert oder entfernt werden.
+        int acc = 0;
+
+        for (int i = 0; i < levelString.length(); i++) {
+            if (levelString.charAt(i) == FIELD_GOAL) {
+                acc += 1;
+            }
+        }
+
+        return acc;
     }
 
     // calculates based on the current position and the direction the new position coordinates
@@ -181,15 +193,23 @@ public class Aufgabe1 {
 
     // returns position of the figure. [0] = x, [1] = y
     private static int[] figurePosition(char[][] level) {
-        // TODO: Implementieren Sie hier Ihre Lösung für die Methode
-        return null; //Zeile kann geändert oder entfernt werden.
+        for (int y = 0; y < level.length; y++) {
+            for (int x = 0; x < level[y].length; x++) {
+                if (level[y][x] == FIELD_PLAYER) {
+                    return new int[]{x, y};
+                }
+            }
+        }
+
+        return null;
     }
 
     // moves figure and box if they don't hit an obstacle
     // returns true if figure was moved
     private static boolean move(char[][] level, int direction) {
-        // TODO: Implementieren Sie hier Ihre Lösung für die Methode
-        return false; //Zeile kann geändert oder entfernt werden.
+
+
+        return false;
     }
 
     // returns current position of all boxes
